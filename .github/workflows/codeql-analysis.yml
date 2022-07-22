@@ -9,6 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
+[![CodeQL](https://github.com/Rahman667/Rahman667/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Rahman667/Rahman667/actions/workflows/codeql-analysis.yml)
 name: "CodeQL"
 on:
   push:
