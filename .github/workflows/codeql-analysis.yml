@@ -10,9 +10,9 @@
 # supported CodeQL languages.
 /.github/workflows/codeql-analysis.yml
 [![CodeQL](https://github.com/Rahman667/Rahman667/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/Rahman667/Rahman667/actions/workflows/codeql-analysis.yml)
-name: [ CodeQL ]
+name: [ codeql ]
 on:
-  push:
+  push: I 
     branches: [ main ]
   pull_request:
     # The branches below must be a subset of the branches above
