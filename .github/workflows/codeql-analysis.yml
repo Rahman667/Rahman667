@@ -10,7 +10,6 @@
 # supported CodeQL languages.
 #
 name: "CodeQL"
-
 on:
   push:
     branches: [ main ]
@@ -32,8 +31,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: (matrix.language)
-        # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
+        language: [ 'cpp', 'sharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
+        # CodeQL supports 
         # Learn more about CodeQL language support at https://git.io/codeql-language-support
 
     steps:
